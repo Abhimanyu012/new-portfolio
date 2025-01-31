@@ -20,8 +20,9 @@ body {
 }
 .nav_bar {
   height: 12vh;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   /* background-color: yellow; */
   border-radius: 10px;
@@ -42,7 +43,33 @@ body {
   width: auto;
   /* border-radius: 50%; */
 }
+.menu{
+  height: 90%;
+  width: 20%;
+  display: flex;
+  /* background-color: red; */
+  justify-content:center;
+  align-items: center;
+  gap:5%;
+  overflow: hidden;
+}
+.menu a{
+  text-decoration: none;
+  color: rgb(58, 3, 89);
+ 
+}
 
+.menu a> #linkdimg{
+  width: 6vmax;
+  
+
+  /* background-color: rgb(30, 29, 29); */
+}
+.menu a> #gitimg{
+  /* /* height:10%; */
+  width: 2.3vmax;
+  /* background-color: rgb(188, 243, 24); */
+}
 .intro {
   height: 90vh;
   width: 100vw;
